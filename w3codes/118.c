@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main () {
+int main()
+{
 
   float marks, tot_marks = 0;
   int i = 0, subject = 0;
@@ -12,7 +13,6 @@ int main () {
     {
 
       printf("Not a valid marks\n");
-
     }
     else
     {
@@ -20,5 +20,5 @@ int main () {
       subject++;
     }
   }
-  printf("Average marks = %.2f\n", tot_marks/5);
-} 
+  printf("Average marks = %.2f\n", tot_marks / 5);
+}
