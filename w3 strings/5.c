@@ -12,7 +12,6 @@ int main()
             count++;
             
         }
-        printf("%c",str1[i]);
     }
     printf("%d\n",count+1);
 }
